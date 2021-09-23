@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.design.Lorem",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "40",
+    "runtime-version": "41",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
     "command": "lorem",
@@ -43,7 +43,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/libadwaita.git",
-                    "commit": "3e9ae3fc25c46f221e4636eb46221ccd60fae5d0"
+                    "commit": "e2c030b8ab9e786f0793e5916864ff009d6391c1"
                 }
             ],
             "modules": [

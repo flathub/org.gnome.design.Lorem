@@ -7,6 +7,7 @@
     "command": "lorem",
     "finish-args": [
         "--device=dri",
+        "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland"
     ],
@@ -31,8 +32,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/World/design/lorem/uploads/f877a94da78450db2b1725502f9be824/lorem-1.0.0.tar.xz",
-                    "sha256": "e5eaf39a74007269b345233571051f93a11ec12b1f7aad2d873ac885267246d2"
+                    "url": "https://gitlab.gnome.org/World/design/lorem/uploads/88d1993a99ef8e9b348c85a07f925002/lorem-1.1.0.tar.xz",
+                    "sha256": "4153f34280f453891406460df06c5ba1d11e1c361a44fd6c68a2a6113f7e5577"
                 }
             ]
         }

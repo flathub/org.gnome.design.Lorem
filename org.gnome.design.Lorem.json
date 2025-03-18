@@ -1,7 +1,7 @@
 {
     "id": "org.gnome.design.Lorem",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "47",
+    "runtime-version": "48",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
     "command": "lorem",
@@ -32,8 +32,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/World/design/lorem/uploads/c6015b8454d071430090fde004e33ec6/lorem-1.4.0.tar.xz",
-                    "sha256": "4c989f762eadb1481a018186d4cd4c71e2d1beec175c9026851b999813578e31"
+                    "url": "https://gitlab.gnome.org/-/project/16770/uploads/c9d311a39aaaff81086919d8f6c10e2e/lorem-1.5.0.tar.xz",
+                    "sha256": "5414388155030c3abfe7c30195ddbb0ca6960f2a421866a5adde9127145841d3"
                 }
             ]
         }

@@ -33,7 +33,13 @@
                 {
                     "type": "archive",
                     "url": "https://gitlab.gnome.org/-/project/16770/uploads/c9d311a39aaaff81086919d8f6c10e2e/lorem-1.5.0.tar.xz",
-                    "sha256": "5414388155030c3abfe7c30195ddbb0ca6960f2a421866a5adde9127145841d3"
+                    "sha256": "5414388155030c3abfe7c30195ddbb0ca6960f2a421866a5adde9127145841d3",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://gitlab.gnome.org/api/v4/projects/16770/releases/",
+                        "version-query": ".[0].tag_name",
+                        "url-query": ".[0].assets.links.[] | select(.name == \"lorem-\" + $version + \".tar.xz\") | .direct_asset_url"
+                    }
                 }
             ]
         }

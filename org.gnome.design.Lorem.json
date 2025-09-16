@@ -1,9 +1,11 @@
 {
     "id": "org.gnome.design.Lorem",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
-    "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
+    "sdk-extensions": [
+        "org.freedesktop.Sdk.Extension.rust-stable"
+    ],
     "command": "lorem",
     "finish-args": [
         "--device=dri",
@@ -32,8 +34,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/-/project/16770/uploads/c9d311a39aaaff81086919d8f6c10e2e/lorem-1.5.0.tar.xz",
-                    "sha256": "5414388155030c3abfe7c30195ddbb0ca6960f2a421866a5adde9127145841d3",
+                    "url": "https://gitlab.gnome.org/World/design/lorem/-/releases/1.6/downloads/lorem-1.6.0.tar.xz",
+                    "sha256": "ed3b201ca4903fc970d7c178a7ce39366be8b4a2728b0ead3bf94f05447d66f0",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://gitlab.gnome.org/api/v4/projects/16770/releases/",

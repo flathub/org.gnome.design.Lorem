@@ -1,7 +1,7 @@
 {
     "id": "org.gnome.design.Lorem",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -16,17 +16,6 @@
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin"
     },
-    "cleanup": [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "*.la",
-        "*.a"
-    ],
     "modules": [
         {
             "name": "lorem",

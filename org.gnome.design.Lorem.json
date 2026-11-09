@@ -28,7 +28,7 @@
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://gitlab.gnome.org/api/v4/projects/16770/releases/",
-                        "version-query": ".[0].tag_name",
+                        "version-query": ".[0].assets.links[].name | capture(\"^lorem-(?<version>[0-9.]+)[.]tar[.]xz$\").version",
                         "url-query": ".[0].assets.links.[] | select(.name == \"lorem-\" + $version + \".tar.xz\") | .direct_asset_url"
                     }
                 }
